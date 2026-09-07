@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" width="560" height="560" role="img" aria-labelledby="heroImgTitle">
+  <title id="heroImgTitle">Illustration of an Indian grocery basket with spices, vegetables and pantry staples</title>
+  <defs>
+    <linearGradient id="blobGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FCEBC9"/>
+      <stop offset="100%" stop-color="#F4A300" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="bagGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2D6A4F"/>
+      <stop offset="100%" stop-color="#0F3324"/>
+    </linearGradient>
+    <linearGradient id="bowl1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E08A00"/>
+      <stop offset="100%" stop-color="#A65A00"/>
+    </linearGradient>
+    <linearGradient id="bowl2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C1272D"/>
+      <stop offset="100%" stop-color="#8C1D22"/>
+    </linearGradient>
+    <radialGradient id="dome" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background blob -->
+  <circle cx="280" cy="280" r="260" fill="url(#blobGrad)"/>
+  <circle cx="440" cy="120" r="60" fill="#2D6A4F" opacity="0.10"/>
+  <circle cx="90" cy="450" r="45" fill="#A62639" opacity="0.10"/>
+
+  <!-- jute bag -->
+  <path d="M180 250 L380 250 L360 460 C357 480 340 494 320 494 L240 494 C220 494 203 480 200 460 L180 250 Z" fill="url(#bagGrad)"/>
+  <path d="M205 250 C205 200 355 200 355 250" fill="none" stroke="#F4A300" stroke-width="10" stroke-linecap="round"/>
+  <g stroke="#FBF8F3" stroke-width="2" opacity="0.35">
+    <line x1="195" y1="290" x2="365" y2="290"/>
+    <line x1="200" y1="330" x2="360" y2="330"/>
+    <line x1="205" y1="370" x2="355" y2="370"/>
+    <line x1="210" y1="410" x2="350" y2="410"/>
+    <line x1="215" y1="450" x2="345" y2="450"/>
+  </g>
+
+  <!-- produce peeking out of bag -->
+  <circle cx="230" cy="235" r="26" fill="#C1272D"/>
+  <circle cx="230" cy="235" r="26" fill="url(#dome)"/>
+  <circle cx="280" cy="222" r="30" fill="#2D6A4F"/>
+  <circle cx="280" cy="222" r="30" fill="url(#dome)"/>
+  <circle cx="330" cy="238" r="24" fill="#E08A00"/>
+  <circle cx="330" cy="238" r="24" fill="url(#dome)"/>
+
+  <!-- spice bowl left -->
+  <ellipse cx="120" cy="380" rx="58" ry="20" fill="#0F3324" opacity="0.15"/>
+  <path d="M70 355 C70 385 170 385 170 355 L162 340 L78 340 Z" fill="url(#bowl1)"/>
+  <ellipse cx="120" cy="340" rx="46" ry="12" fill="#FCEBC9"/>
+  <g fill="#B5651D">
+    <circle cx="105" cy="337" r="2.4"/><circle cx="115" cy="342" r="2.4"/><circle cx="128" cy="336" r="2.4"/>
+    <circle cx="135" cy="341" r="2.4"/><circle cx="120" cy="333" r="2.4"/><circle cx="98" cy="342" r="2.4"/>
+  </g>
+
+  <!-- spice bowl right -->
+  <ellipse cx="430" cy="400" rx="62" ry="20" fill="#0F3324" opacity="0.15"/>
+  <path d="M378 372 C378 405 484 405 484 372 L474 356 L388 356 Z" fill="url(#bowl2)"/>
+  <ellipse cx="431" cy="356" rx="48" ry="12" fill="#FCEBC9"/>
+  <g fill="#8C1D22">
+    <circle cx="415" cy="353" r="2.4"/><circle cx="426" cy="358" r="2.4"/><circle cx="440" cy="352" r="2.4"/>
+    <circle cx="448" cy="357" r="2.4"/><circle cx="432" cy="349" r="2.4"/><circle cx="408" cy="358" r="2.4"/>
+  </g>
+
+  <!-- floating spice sparkle accents -->
+  <g fill="#F4A300">
+    <circle cx="150" cy="140" r="5"/>
+    <circle cx="420" cy="200" r="4"/>
+    <circle cx="460" cy="330" r="4.5"/>
+    <circle cx="110" cy="230" r="3.5"/>
+  </g>
+  <g stroke="#F4A300" stroke-width="2" opacity="0.6">
+    <path d="M395 150 l8 8 M403 150 l-8 8"/>
+    <path d="M130 480 l7 7 M137 480 l-7 7"/>
+  </g>
+</svg>

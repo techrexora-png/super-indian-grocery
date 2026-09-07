@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 80" width="340" height="80" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Super Indian Grocery logo</title>
+  <defs>
+    <linearGradient id="basketGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2D6A4F"/>
+      <stop offset="100%" stop-color="#0F3324"/>
+    </linearGradient>
+    <linearGradient id="saffronGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F4A300"/>
+      <stop offset="100%" stop-color="#E08A00"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Basket icon -->
+  <g transform="translate(4,10)">
+    <path d="M10 22 L52 22 L46 56 C45.3 60 42 62 38 62 L24 62 C20 62 16.7 60 16 56 L10 22 Z" fill="url(#basketGrad)"/>
+    <path d="M16 22 C16 8 46 8 46 22" fill="none" stroke="#F4A300" stroke-width="4" stroke-linecap="round"/>
+    <line x1="14" y1="32" x2="48" y2="32" stroke="#FBF8F3" stroke-width="2" opacity="0.55"/>
+    <line x1="16" y1="42" x2="46" y2="42" stroke="#FBF8F3" stroke-width="2" opacity="0.55"/>
+    <line x1="18" y1="52" x2="44" y2="52" stroke="#FBF8F3" stroke-width="2" opacity="0.55"/>
+    <!-- little spice/leaf accent -->
+    <circle cx="31" cy="4" r="4.5" fill="url(#saffronGrad)"/>
+    <path d="M31 4 C34 -1 40 -1 42 3 C38 5 33 6 31 4 Z" fill="#A62639"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(74,20)">
+    <text x="0" y="16" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="17" font-weight="700" fill="#F4A300" letter-spacing="0.5">SUPER</text>
+    <text x="0" y="42" font-family="'Poppins', 'Segoe UI', sans-serif" font-size="24" font-weight="700" fill="#0F3324" letter-spacing="0.2">Indian Grocery</text>
+    <line x1="1" y1="50" x2="255" y2="50" stroke="#F4A300" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

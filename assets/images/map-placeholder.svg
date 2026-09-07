@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 400" width="560" height="400" role="img" aria-labelledby="mapImgTitle">
+  <title id="mapImgTitle">Stylised map showing the Super Indian Grocery location in Kilburn, South Australia</title>
+  <defs>
+    <linearGradient id="mapBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFE7D6"/>
+      <stop offset="100%" stop-color="#E3D9C2"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="400" rx="20" fill="url(#mapBg)"/>
+  <g stroke="#C9BC9C" stroke-width="2" opacity="0.6">
+    <line x1="0" y1="90" x2="560" y2="70"/>
+    <line x1="0" y1="220" x2="560" y2="240"/>
+    <line x1="0" y1="330" x2="560" y2="310"/>
+    <line x1="120" y1="0" x2="90" y2="400"/>
+    <line x1="330" y1="0" x2="360" y2="400"/>
+    <line x1="470" y1="0" x2="500" y2="400"/>
+  </g>
+  <g stroke="#B3A47D" stroke-width="6" opacity="0.7" stroke-linecap="round">
+    <line x1="0" y1="200" x2="560" y2="205"/>
+  </g>
+  <g transform="translate(255,150)">
+    <circle cx="25" cy="25" r="70" fill="#2D6A4F" opacity="0.12"/>
+    <path d="M25 0 C42 0 55 13 55 30 C55 52 25 78 25 78 C25 78 -5 52 -5 30 C-5 13 8 0 25 0 Z" fill="#A62639"/>
+    <circle cx="25" cy="30" r="14" fill="#FBF8F3"/>
+  </g>
+  <text x="280" y="270" text-anchor="middle" font-family="'Poppins','Segoe UI',sans-serif" font-size="16" font-weight="600" fill="#1B4332">Shop 7/400 Churchill Rd, Kilburn SA 5084</text>
+</svg>
