@@ -151,10 +151,20 @@ section { padding: 96px 0; }
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(251, 248, 243, 0.92);
-  backdrop-filter: blur(10px);
   border-bottom: 1px solid transparent;
   transition: box-shadow var(--transition), border-color var(--transition), padding var(--transition);
+}
+/* Blur lives on a ::before (not on .site-header itself) so the header never
+   becomes a containing block for its position:fixed .mobile-nav child — a
+   backdrop-filter/filter on an ancestor otherwise traps fixed descendants
+   inside that ancestor's own box instead of the viewport. */
+.site-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: rgba(251, 248, 243, 0.92);
+  backdrop-filter: blur(10px);
 }
 .site-header.is-scrolled {
   box-shadow: var(--shadow-sm);
